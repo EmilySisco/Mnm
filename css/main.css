@@ -342,7 +342,7 @@ footer h5 {
     position: relative;
     width: 260px;
     height:260px;
-    margin: 50px;
+    margin: 35px;
     border: 2px solid black;
 }
 
@@ -360,8 +360,8 @@ footer h5 {
     position: relative;
     float: left;
     transform: rotate(90deg);
-    margin: 50px;
     border: 2px solid black;
+    margin: 40px;
 }
 
 .christmasdecor h3 {
@@ -378,6 +378,7 @@ footer h5 {
 .row {
     display: flex;
     
+    
 }
 
 .column {
@@ -389,7 +390,7 @@ footer h5 {
     position: relative;
     float: left;
     transform: rotate(90deg);
-    margin: 50px;
+    margin: 40px;
     border: 2px solid black;
 }
 
@@ -421,9 +422,14 @@ footer h5 {
 .som {
     
     transform: rotate(90deg);
-    margin: 20px;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 40px;
     border: 2px solid black;
+}
+
+.som h1 {
+    padding-left: 30px;
+    
 }
 
 
@@ -431,6 +437,22 @@ footer h5 {
     padding: 40px;
     margin-bottom: 20px;
 }
+
+.grid h1 {
+    font-family: 'Sacramento';
+    font-size: 2.5em;
+    color: #483B1C;
+}
+
+
+.grid h2 {
+    font-family: 'Sacramento';
+    font-size: 3em;
+    color: #483B1C;
+}
+
+
+
 
 .row1 {
     display: flex;
@@ -474,7 +496,7 @@ del + ins::before {
     width: 100%;
     font-family: 'Abril';
     font-size: 1.8em;
-    padding-left: 60px;
+    padding-left: 70px;
     color: #483B1C;
     
 }
@@ -511,7 +533,7 @@ del + ins::before {
     width: 100%;
     font-family: 'Abril';
     font-size: 1.8em;
-    padding-left: 60px;
+    padding-left: 70px;
     color: #483B1C;
     
 }
@@ -547,7 +569,7 @@ del + ins::before {
     width: 100%;
     font-family: 'Abril';
     font-size: 1.8em;
-    padding-left: 60px;
+    padding-left: 70px;
     color: #483B1C;
     
 }
@@ -573,7 +595,7 @@ del + ins::before {
 
 .door2 img {
     
-    margin: 25px 5px 25px 25px;
+    margin: 25px 25px 25px 25px;
     transform: rotate(90deg);
     border: 2px solid black;
     
@@ -585,7 +607,7 @@ del + ins::before {
     width: 100%;
     font-family: 'Abril';
     font-size: 1.8em;
-    padding-left: 60px;
+    padding-left: 70px;
     color: #483B1C;
     
 }
@@ -621,7 +643,7 @@ del + ins::before {
     width: 100%;
     font-family: 'Abril';
     font-size: 1.8em;
-    padding-left: 60px;
+    padding-left: 70px;
     color: #483B1C;
     
 }
@@ -656,7 +678,8 @@ del + ins::before {
     width: 100%;
     font-family: 'Abril';
     font-size: 1.8em;
-    padding-left: 60px;
+    padding-left: 70px;
+    padding-bottom: 0px;
     color: #483B1C;
     
 }
@@ -685,6 +708,13 @@ del + ins::before {
     display: flex;
 }
 
+
+
+
+.homepagegrid {
+    text-align: center;
+    padding-right: 30px;
+}
 /* ==========================================================================
    Print styles
    ========================================================================== */
