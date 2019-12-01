@@ -1,0 +1,752 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+stronghold {
+    text-decoration: 'Sacrame';
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav a {
+    padding: 10px;
+    border: 10px;
+
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #45B247;
+}
+
+nav li {
+    
+
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+==========================================================================
+   ========================================================================== */
+
+    
+    .picture img { 
+    margin-top: 50px;
+    width: 200px;
+    border: 2px solid black;
+    transform: rotate(90deg);
+    
+
+}
+
+    .heart img {
+    float: left;
+    margin-top: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and  {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+       
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+        font-family: 'Sacramento', cursive;
+        font-size: 3em;
+        color: #483B1C;
+        
+    }
+
+    
+    article h2 {
+        font-family: "Sacramento", cursive;
+        font-size: 1.8em;
+        color: #483B1C;
+    }
+    
+    article h3 {
+        font-family: "Sacramento", cursive;
+        font-size: 1.8em;
+        color: #483B1C;
+        
+    }
+    nav {
+        text-align: center;
+        display:inline;
+        overflow: hidden;
+        float: right;
+        width: 415px;
+        margin-top: 10px;
+        
+        
+    }
+    
+    
+    nav ul {
+        margin: 15px;;
+        padding: 10px;
+        display: flex;
+        float: right;
+        
+    }
+    
+    nav li {
+        list-style-type: none;
+        display: flex;
+        padding-top: 50px;
+        padding: 10px;
+
+       
+    }
+    
+    
+    body{
+        margin: 0;
+    }
+  
+    
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: right;
+        width:100%;
+    }
+
+    .main aside {
+        float: left;
+        padding: 30px;
+        margin: 0;
+        border: 0 black;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.picture img { 
+    margin-top: 50px;
+    width: 200px;
+    border: 2px solid black;
+    transform: rotate(90deg);
+    
+
+}
+
+.heart img {
+    float: left;
+    margin-top: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+footer h5 {
+    text-align: center;
+    font-size: 0.2em;
+}
+
+
+
+.falldecor {
+    position: relative;
+    width: 260px;
+    height:260px;
+    margin: 50px;
+    border: 2px solid black;
+}
+
+.falldecor h2 {
+    position: absolute; 
+    top: 40px;
+    right: 8px;
+    left: 12px;
+    color: beige;
+    font-size: 3.3em;
+    font-family: serif;
+}
+
+.christmasdecor {
+    position: relative;
+    float: left;
+    transform: rotate(90deg);
+    margin: 50px;
+    border: 2px solid black;
+}
+
+.christmasdecor h3 {
+    position: absolute;
+    top: 70px;
+    color: white;
+    transform: rotate(270deg);
+    font-family: 'Sacramento';
+    font-size: 2.45em;
+    
+}
+
+
+.row {
+    display: flex;
+    
+}
+
+.column {
+    flex: 33.3%;
+    padding: 5px;
+}
+
+.homedecor {
+    position: relative;
+    float: left;
+    transform: rotate(90deg);
+    margin: 50px;
+    border: 2px solid black;
+}
+
+.homedecor h4 {
+    position: absolute;
+    transform: rotate(270deg);
+    top: 45px;
+    left: px;
+    color: whitesmoke;
+    font-size: 2.6em;
+}
+
+
+.heroimage h2 {
+    position: absolute;
+    font-family: Serif;
+    font-size: 1.9em;
+    top: 50px;
+    left: 50px;
+    right: 60px;;
+    color: #45B247;
+}
+
+.heroimage {
+    position: relative;
+   
+}
+
+.som {
+    
+    transform: rotate(90deg);
+    margin: 20px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+
+
+.grid {
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.row1 {
+    display: flex;
+}
+
+.column1 { 
+    flex: 33.3%;
+    padding: 5px;
+
+}
+
+.row2 {
+    display: flex;
+}
+
+.column2 {
+    flex: 33.3%;
+    padding: 5px;
+}
+
+
+del + ins::before {
+    padding: 3px;
+    content: ' ';
+}
+
+.bear {
+    margin: 20px;
+}
+
+.bear img {
+    
+    border: 2px solid black;
+    margin: 25px 25px 5px 25px;
+    
+}
+
+.bear p {
+    
+    position: absolute;
+    width: 100%;
+    font-family: 'Abril';
+    font-size: 1.8em;
+    padding-left: 60px;
+    color: #483B1C;
+    
+}
+
+.bear p del {
+    content: '\A0';
+    color: #DB0202;
+    font-size: 0.75em;
+}
+
+
+.bear p ins {
+    text-decoration: none;
+    color: #2B2AEC;
+    font-size: 0.9em;
+}
+
+
+
+.deer {
+    margin: 20px;
+}
+
+.deer img {
+    
+    border: 2px solid black;
+    margin: 25px 25px 25px 25px;
+    
+}
+
+.deer p {
+    
+    position: absolute;
+    width: 100%;
+    font-family: 'Abril';
+    font-size: 1.8em;
+    padding-left: 60px;
+    color: #483B1C;
+    
+}
+
+.deer p del {
+    content: '\A0';
+    color: #DB0202;
+    font-size: 0.75em;
+}
+
+
+.deer p ins {
+    text-decoration: none;
+    color: #2B2AEC;
+    font-size: 0.9em;
+}
+
+.door1 {
+    margin: 20px;
+}
+
+.door1 img {
+    
+    transform: rotate(90deg);
+    border: 2px solid black;
+    margin: 25px 25px 5px 25px;
+    
+}
+
+.door1 p {
+    
+    position: absolute;
+    width: 100%;
+    font-family: 'Abril';
+    font-size: 1.8em;
+    padding-left: 60px;
+    color: #483B1C;
+    
+}
+
+.door1 p del {
+    content: '\A0';
+    color: #DB0202;
+    font-size: 0.75em;
+}
+
+
+.door1 p ins {
+    text-decoration: none;
+    color: #2B2AEC;
+    font-size: 0.9em;
+}
+
+
+
+.door2 {
+    margin: 20px;
+}
+
+.door2 img {
+    
+    margin: 25px 5px 25px 25px;
+    transform: rotate(90deg);
+    border: 2px solid black;
+    
+}
+
+.door2 p {
+    
+    position: absolute;
+    width: 100%;
+    font-family: 'Abril';
+    font-size: 1.8em;
+    padding-left: 60px;
+    color: #483B1C;
+    
+}
+
+.door2 p del {
+    content: '\A0';
+    color: #DB0202;
+    font-size: 0.75em;
+}
+
+
+.door2 p ins {
+    text-decoration: none;
+    color: #2B2AEC;
+    font-size: 0.9em;
+}
+
+.sign1 {
+    margin: 20px;
+}
+
+.sign1 img {
+    
+    transform: rotate(90deg); 
+    border: 2px solid black;
+    margin: 25px 25px 5px 25px;
+    
+}
+
+.sign1 p {
+    
+    position: absolute;
+    width: 100%;
+    font-family: 'Abril';
+    font-size: 1.8em;
+    padding-left: 60px;
+    color: #483B1C;
+    
+}
+
+.sign1 p del {
+    content: '\A0';
+    color: #DB0202;
+    font-size: 0.75em;
+}
+
+
+.sign1 p ins {
+    text-decoration: none;
+    color: #2B2AEC;
+    font-size: 0.9em;
+}
+
+.pumpkin {
+    margin: 20px;
+}
+
+.pumpkin img {
+    
+    margin: 25px 25px 5px 25px;
+    border: 2px solid black;
+    
+}
+
+.pumpkin p {
+    
+    position: absolute;
+    width: 100%;
+    font-family: 'Abril';
+    font-size: 1.8em;
+    padding-left: 60px;
+    color: #483B1C;
+    
+}
+
+.pumpkin p del {
+    content: '\A0';
+    color: #DB0202;
+    font-size: 0.75em;
+}
+
+
+.pumpkin p ins {
+    text-decoration: none;
+    color: #2B2AEC;
+    font-size: 0.9em;
+}
+
+
+
+.h2 {
+    font-family: 'Sacramento', cursive;
+}
+
+
+.images ul li {
+    display: flex;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    
+    
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 98% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
